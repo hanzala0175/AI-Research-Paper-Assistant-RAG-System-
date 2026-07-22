@@ -1,0 +1,26 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+streamlit==1.38.0
+python-multipart==0.0.9
+python-dotenv==1.0.1
+pydantic==2.9.2
+
+# LangChain core + integrations
+langchain==0.3.7
+langchain-community==0.3.5
+langchain-groq==0.2.1
+langchain-huggingface==0.1.2
+
+# Vector store + retrieval
+faiss-cpu==1.9.0
+rank-bm25==0.2.2
+
+# Embeddings (local, free — Groq has no embeddings endpoint)
+sentence-transformers==3.2.1
+
+# PDF parsing
+pypdf==5.0.1
+
+# Utilities
+tiktoken==0.8.0
+requests==2.32.3
